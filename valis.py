@@ -13,5 +13,6 @@ def ping(host='127.0.0.1'):
 
 class Validation:
     def __init__(self, validation_type, destination='brandbil.dk'):
-        if validation_type == 'ping': self.returncode = ping(destination)
+        if validation_type == 'ping':
+            self.returncode = ping(destination)
         self.destination = destination
