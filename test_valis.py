@@ -1,7 +1,8 @@
 import valis
+from unittest import TestCase
 
 
-class TestValidation:
+class TestValidation(TestCase):
     def test_ping_nothing(self):
         assert valis.ping() == 0
 
