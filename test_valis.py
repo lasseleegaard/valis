@@ -16,7 +16,7 @@ def test_ping_dr_dot_dk():
 def test_ping_validation_nothing():
     validation = valis.Validation('ping', '')
     assert validation.destination == ''
-    assert validation.returncode == 64
+    assert validation.returncode == 64 # 1 on linux
 
 
 def test_ping_validation_brandbil_dot_dk():
@@ -28,4 +28,4 @@ def test_ping_validation_brandbil_dot_dk():
 def test_ping_validation_should_fail_for_doesnotexist_dot_brandbil_dot_dk():
     validation = valis.Validation('ping', 'doesnotexist.brandbil.dk')
     assert validation.destination == 'doesnotexist.brandbil.dk'
-    assert validation.returncode == 68
+    assert validation.returncode == 68 #2 on linux

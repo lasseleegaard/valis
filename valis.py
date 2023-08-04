@@ -16,11 +16,3 @@ class Validation:
         if validation_type == 'ping':
             self.returncode = ping(destination)
         self.destination = destination
-
-
-def main():
-
-
-if __name__ == '__main__':
-    main()
-
