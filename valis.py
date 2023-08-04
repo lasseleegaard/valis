@@ -19,8 +19,6 @@ class Validation:
 
 
 def main():
-    pingresult = ping('')
-    print(pingresult)
 
 
 if __name__ == '__main__':
