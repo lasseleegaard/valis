@@ -6,7 +6,10 @@ def ping(host='127.0.0.1'):
     ping_switch = '-c'
     ping_count = '1'
     ping_destination = host
-    ping_command = 'ping' + ' ' + ping_switch + ' ' + ping_count + ' ' + ping_destination
+    ping_command = ('ping' + ' ' +
+                    ping_switch + ' ' +
+                    ping_count + ' ' +
+                    ping_destination)
     ping_output = run(ping_command, shell=True)
     return ping_output.returncode
 
