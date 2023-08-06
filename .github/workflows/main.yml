@@ -1,4 +1,4 @@
-name: black formatting
+name: code quality
 on: push
 jobs:
   black:
