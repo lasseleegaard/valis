@@ -3,7 +3,7 @@ import socket
 from subprocess import run
 
 
-def ping(host="127.0.0.1"):
+def ping(host="localhost"):
     if host != "":
         ping_switch = "-c"
         ping_count = "1"
