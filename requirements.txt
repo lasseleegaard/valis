@@ -3,4 +3,4 @@ setuptools == 68.0.0
 wheel ==0.41.1
 pytest == 7.4.0
 ruff == 0.0.282
-black == 23.7.0
+black ==23.9.1
