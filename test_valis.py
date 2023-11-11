@@ -45,6 +45,7 @@ def test_ping_validation_should_fail_for_doesnotexist_dot_brandbil_dot_dk():
     # Ping return codes for non-existing domain name are different for different OSes:
     # 68 on OSX, 2 on linux, 1 on FreeBSD
 
+
 @pytest.mark.skipif(IN_GITHUB_ACTIONS, reason="Test doesn't work in Github Actions.")
 def test_ping_validation_should_fail_for_doesnotreply_dot_brandbil_dot_dk():
     validation = valis.Validation("ping", "doesnotreply.brandbil.dk")
