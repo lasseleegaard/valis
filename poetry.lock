@@ -176,13 +176,13 @@ testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "no
 
 [[package]]
 name = "pytest-watcher"
-version = "0.3.4"
+version = "0.4.2"
 description = "Automatically rerun your tests on file modifications"
 optional = false
-python-versions = ">=3.7.0,<4.0.0"
+python-versions = "<4.0.0,>=3.7.0"
 files = [
-    {file = "pytest_watcher-0.3.4-py3-none-any.whl", hash = "sha256:edd2bd9c8a1fb14d48c9f4947234065eb9b4c1acedc0bf213b1f12501dfcffd3"},
-    {file = "pytest_watcher-0.3.4.tar.gz", hash = "sha256:d39491ba15b589221bb9a78ef4bed3d5d1503aed08209b1a138aeb95b9117a18"},
+    {file = "pytest_watcher-0.4.2-py3-none-any.whl", hash = "sha256:a43949ba67dd8d7e1fd0de5eea44a999081f0aec9f93b4e744264b4c6a3d9bbe"},
+    {file = "pytest_watcher-0.4.2.tar.gz", hash = "sha256:7b292f025ca19617cd7567c228c6187b5087f2da9e4d2cf6e144e5764a0471b0"},
 ]
 
 [package.dependencies]
@@ -285,4 +285,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b96d90242bc58a3f34acb0e597291aa112eeb897eb5e72d1c4802e815d82dc3d"
+content-hash = "0734e9fc8d8c467bf553ce496006635c33df3ba208a0187fa7032cbfe2089c30"

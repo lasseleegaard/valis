@@ -16,7 +16,7 @@ wheel = "^0.41.0"
 black = "^24.0.0"
 ruff = "^0.1.5"
 pytest = "^7.4.0"
-pytest-watcher = "^0.3.4"
+pytest-watcher = "^0.4.0"
 
 [build-system]
 requires = ["poetry-core"]
