@@ -1,4 +1,4 @@
-pip ==23.3.2
+pip ==24.1.2
 setuptools ==70.3.0
 wheel ==0.43.0
 pytest ==7.4.4
