@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pip = "^24.0.0"
-setuptools = "^71.0.0"
+setuptools = "^72.0.0"
 wheel = "^0.43.0"
 
 [tool.poetry.group.dev.dependencies]
