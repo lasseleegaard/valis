@@ -14,7 +14,7 @@ wheel = "^0.45.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.0.0"
-ruff = "^0.13.0"
+ruff = "^0.14.0"
 pytest = "^8.0.0"
 pytest-watcher = "^0.4.0"
 
