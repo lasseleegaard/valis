@@ -2,5 +2,5 @@ pip ==25.3
 setuptools ==80.10.2
 wheel ==0.46.3
 pytest ==8.4.2
-ruff ==0.14.0
+ruff ==0.15.5
 black ==25.12.0
