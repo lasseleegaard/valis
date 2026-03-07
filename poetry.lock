@@ -121,13 +121,13 @@ files = [
 
 [[package]]
 name = "pip"
-version = "24.3.1"
+version = "26.0.1"
 description = "The PyPA recommended tool for installing Python packages."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "pip-24.3.1-py3-none-any.whl", hash = "sha256:3790624780082365f47549d032f3770eeb2b1e8bd1f7b2e02dace1afa361b4ed"},
-    {file = "pip-24.3.1.tar.gz", hash = "sha256:ebcb60557f2aefabc2e0f918751cd24ea0d56d8ec5445fe1807f1d2109660b99"},
+    {file = "pip-26.0.1-py3-none-any.whl", hash = "sha256:bdb1b08f4274833d62c1aa29e20907365a2ceb950410df15fc9521bad440122b"},
+    {file = "pip-26.0.1.tar.gz", hash = "sha256:c4037d8a277c89b320abe636d59f91e6d0922d08a05b60e85e53b296613346d8"},
 ]
 
 [[package]]
@@ -369,4 +369,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=77)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "148a976ff00043725187956250a088018448a42d5b6010ef4cf144a607e6ed4b"
+content-hash = "4a15b89e04a719a0dcd4e2834b8267908506f3c761a1430162d4a33a7cbb3661"
