@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.11"
 pip = "^26.0.0"
 setuptools = "^83.0.0"
-wheel = "^0.46.0"
+wheel = "^0.48.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.0.0"
